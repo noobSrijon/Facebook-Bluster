@@ -1,6 +1,6 @@
 # Facebook-Bluster
 This tool is just for Windows operating system . 
-By using it you can send messages to your facebook friends for unlimited times by writting that message once.
+By using it you can send messages to your facebook friends for unlimited times by writing that message for once.
 
 # Installation
 Make sure you have python installed on your system :upside_down_face:
