@@ -7,7 +7,7 @@ Make sure you have python installed on your system :upside_down_face:
 
 1. Download the repository on your system 
 2. Extract it
-3. Open Command Prompt on that directory.
+3. Open Command Prompt/PowerShell on that directory.
 4. Then type **```cd root```**
 5. Then type **```python fbbluster.py```**
 6. Done! :wink:
