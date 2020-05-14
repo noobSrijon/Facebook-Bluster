@@ -6,8 +6,8 @@ By using it you can send messages to your facebook friends for unlimited times b
 1. Download the repository on your system 
 2. Extract it
 3. Open Command Prompt on that directory.
-4. Then type "cd root "
-5. Then type ```python fbbluster.py```
+4. Then type **```cd root```**
+5. Then type **```python fbbluster.py```**
 6. Done! :wink:
 
 # Screenshots
