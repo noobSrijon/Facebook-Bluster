@@ -17,10 +17,10 @@ Make sure you have python installed on your system :upside_down_face:
 **Command Prompt Screen:**
 
 
-[![MMM.png](https://i.postimg.cc/wvm6H1MW/MMM.png)](https://postimg.cc/zbqmFXnW)
+[![MMM.png](https://i.postimg.cc/wvm6H1MW/MMM.png)]()
 
 
 **Facebook Messanger Screen:**
 
 
-[![MMM.png](https://i.postimg.cc/CLZR5xtV/MMM.png)](https://postimg.cc/D8TvYnnC)
+[![MMM.png](https://i.postimg.cc/CLZR5xtV/MMM.png)]()
