@@ -3,6 +3,7 @@ try:
         import fbchat
 except:
         os.system("pip install fbchat")
+os.system("cls")
 from fbchat import Client
 from getpass import getpass
 os.system("color 84")
