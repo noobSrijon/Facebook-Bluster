@@ -5,7 +5,10 @@ ops=platform.system()
 try:
         import fbchat
 except:
-        os.system("pip install fbchat")
+        if ops=="Linux":
+                os.system("pip3 install fbchat")
+        elif ops=="Windows":
+                os.system("pip install fbchat")
         import fbchat
 if ops=="Windows":
         os.system("color 84")
@@ -31,15 +34,9 @@ print("1. Sent Messages")
 print("2. Exit")
 c=int(input(":~$ "))
 if c==1:
-        if ops=="Linux":
-                username=raw_input("Your FB Username:~$ ")
-        elif ops=="Windows":
-                username=str(input("Your FB Username:~$ "))
+        username=str(input("Your FB Username:~$ "))
         client=fbchat.Client(username,getpass())
-        if ops=="Linux":
-                name=raw_input("Victim Name:~$ ")
-        elif ops=="Windows":
-                name=str(input("Victim Name:~$ "))
+        name=str(input("Victim Name:~$ "))
         friends=client.searchForUsers(name)
         friend=friends[0]
         s=str(input("Enter Text You Want To Send:~$ "))
