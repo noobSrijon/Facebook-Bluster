@@ -2,8 +2,6 @@ import os
 import sys
 import platform
 ops=platform.system()
-if ops=="Linux":
-	os.system("alias cls=clear")
 try:
         import fbchat
 except:
@@ -12,7 +10,11 @@ if ops=="Windows":
         os.system("color 84")
 elif ops=="Linux":
         os.system("setterm -foreground red -store")
-os.system("cls")
+
+if ops=="Windows":
+        os.system("cls")
+elif ops=="Linux":
+        os.system("clear")
 from fbchat import Client
 from getpass import getpass
 print(" _____   ____      ____    _       _   _   ____    _____   _____   ____")
