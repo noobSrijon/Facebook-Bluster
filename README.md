@@ -24,3 +24,10 @@ Make sure you have python installed on your system :upside_down_face:
 
 
 [![MMM.png](https://i.postimg.cc/CLZR5xtV/MMM.png)](https://raw.githubusercontent.com/noobSrijon/Facebook-Bluster/master/screenshots/messages.png)
+
+
+
+
+#Credits
+**Developed By:** @noobSrijon
+**Tester(Linux):** @harisahmed05
