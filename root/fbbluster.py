@@ -36,7 +36,10 @@ if c==1:
         elif ops=="Windows":
                 username=str(input("Your FB Username:~$ "))
         client=fbchat.Client(username,getpass())
-        name=str(input("Victim Name:~$ "))
+        if ops=="Linux":
+                name=raw_input("Victim Name:~$ ")
+        elif ops=="Windows":
+                name=str(input("Victim Name:~$ "))
         friends=client.searchForUsers(name)
         friend=friends[0]
         s=str(input("Enter Text You Want To Send:~$ "))
