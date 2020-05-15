@@ -11,7 +11,7 @@ except:
 if ops=="Windows":
         os.system("color 84")
 elif ops=="Linux":
-        os.system("setterm -foreground brown -store")
+        os.system("setterm -foreground red -store")
 os.system("cls")
 from fbchat import Client
 from getpass import getpass
