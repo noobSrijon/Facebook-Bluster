@@ -6,6 +6,7 @@ try:
         import fbchat
 except:
         os.system("pip install fbchat")
+        import fbchat
 if ops=="Windows":
         os.system("color 84")
 elif ops=="Linux":
