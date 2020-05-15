@@ -2,13 +2,14 @@ import os
 import sys
 import platform
 ops=platform.system()
-if ops=="Linux":
-	os.system("alias cls=clear")
 try:
         import fbchat
 except:
         os.system("pip install fbchat")
-os.system("cls")
+if ops=="Linux":
+	os.system("clear")
+elif ops=="Windows":
+	os.system("cls")
 from fbchat import Client
 from getpass import getpass
 if ops=="Windows":
