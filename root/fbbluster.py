@@ -1,8 +1,10 @@
 import os
 try:
         import fbchat
+        
 except:
         os.system("pip install fbchat")
+        import fbchat
 os.system("cls")
 from fbchat import Client
 from getpass import getpass
