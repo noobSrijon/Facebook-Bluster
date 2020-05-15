@@ -3,14 +3,18 @@ By using it you can send messages to your facebook friends for unlimited times b
 
 # Installation
 Make sure you have Python 3 installed on your system :upside_down_face:
-**Windows**
+
+ ***Windows***
+ 
   1. Download the repository on your system 
   2. Extract it
   3. Open Command Prompt/PowerShell on that directory.
   4. Then type **```cd root```**
   5. Then type **```python fbbluster.py```**
   6. Done! :wink:
-**Linux**
+  
+***Linux***
+
   1. Type **```git clone https://github.com/noobSrijon/Facebook-Bluster```** in the Linux Terminal
   2. Then **```cd Facebook-Bluster```**
   3. Then **```cd root```**
