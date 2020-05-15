@@ -2,20 +2,19 @@ import os
 import sys
 import platform
 ops=platform.system()
+if ops=="Linux":
+	os.system("alias cls=clear")
 try:
         import fbchat
 except:
         os.system("pip install fbchat")
-if ops=="Linux":
-	os.system("clear")
-elif ops=="Windows":
-	os.system("cls")
-from fbchat import Client
-from getpass import getpass
 if ops=="Windows":
         os.system("color 84")
 elif ops=="Linux":
         os.system("setterm -foreground red -store")
+os.system("cls")
+from fbchat import Client
+from getpass import getpass
 print(" _____   ____      ____    _       _   _   ____    _____   _____   ____")
 print("|  ___| | __ )    | __ )  | |     | | | | / ___|  |_   _| | ____| |  _ \ ")
 print("| |_    |  _ \    |  _ \  | |     | | | | \___ \    | |   |  _|   | |_) |")
@@ -29,8 +28,10 @@ print("1. Sent Messages")
 print("2. Exit")
 c=int(input(":~$ "))
 if c==1:
-
-        username=str(input("Your FB Username:~$ "))
+        if ops=="Linux":
+                username=raw_input("Your FB Username:~$ ")
+        elif ops=="Windows":
+                username=str(input("Your FB Username:~$ "))
         client=fbchat.Client(username,getpass())
         name=str(input("Victim Name:~$ "))
         friends=client.searchForUsers(name)
