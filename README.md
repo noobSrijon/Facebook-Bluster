@@ -29,5 +29,5 @@ Make sure you have python installed on your system :upside_down_face:
 
 
 # Credits
-***Developed By: @noobSrijon
-***Tester(Linux): @harisahmed05
+***Developed By: noobSrijon***
+***Tester(Linux): harisahmed05***
