@@ -26,7 +26,7 @@ Make sure you have Python 3 installed on your system :upside_down_face:
 **Command Prompt Screen:**
 
 
-[![MMM.png](https://i.postimg.cc/wvm6H1MW/MMM.png)](https://raw.githubusercontent.com/noobSrijon/Facebook-Bluster/master/screenshots/Command%20Prompt.png)
+[![v2ss.png](https://i.postimg.cc/44H42nwW/v2ss.png)](https://raw.githubusercontent.com/noobSrijon/Facebook-Bluster/master/screenshots/v2ss.png)
 
 
 **Facebook Messanger Screen:**
