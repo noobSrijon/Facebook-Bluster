@@ -40,4 +40,3 @@ Make sure you have Python 3 installed on your system :upside_down_face:
 # Credits
 ***Developed By: noobSrijon*** 
 
-***Tester(Linux): harisahmed05***
