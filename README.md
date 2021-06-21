@@ -1,6 +1,10 @@
 # Facebook-Bluster
 By using it you can send messages to your facebook friends for unlimited times by writing that message for once.
 
+***I am not responsible if your account gets banned for spammy activities, such as sending lots of
+messages to people you don’t know, sending messages very quickly, sending spammy looking URLs, logging in
+and out very quickly.  Be responsible Facebook citizens.***
+
 # Installation
 Make sure you have Python 3 installed on your system :upside_down_face:
 
