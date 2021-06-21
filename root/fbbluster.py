@@ -54,7 +54,7 @@ while True:
         print("\n                         Author: Srijon Kumar                                   ")
         #main
         print("---You are using {} {}---\n".format(platform.system(),platform.release()))
-        print("1. Sent Messages")
+        print("1. Send Messages")
         print("2. Logout")
         print("3. Exit")
         c=int(input(":~$ "))
